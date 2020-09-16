@@ -1,0 +1,232 @@
+body,
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+}
+.row {
+  margin: 0;
+}
+
+.main-body a {
+  text-decoration: none;
+}
+
+.main-body {
+  background-image: url("./images/pexels-photo-303383.jpeg");
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 875px) {
+  .main-body {
+    background-image: linear-gradient(to left, #434343, #000000);
+    background-size: cover;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-image: url(img/photo-1541991078342-884c7bcb1ad6.jpeg);
+       background-repeat:no-repeat; */
+  }
+  .w-75 {
+    width: 215px !important;
+  }
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-color: gold;
+}
+.margin {
+  margin-top: 7rem;
+}
+
+.dropdownstyle {
+  position: relative;
+  background-image: linear-gradient(to left, #434343, #000000);
+}
+.dropdown-item {
+  color: #fbb034;
+}
+
+.text {
+  font-size: 2rem;
+}
+.name {
+  font-size: 3rem;
+  text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px gold;
+}
+/*
+
+.tooltipimg{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;    
+}
+.name:hover .tooltipimg{
+        visibility: visible;
+}
+
+@media only screen and (min-width: 1000px) {
+    .tooltipimg{
+        visibility: hidden;
+    }
+}
+*/
+
+.intro-para {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+.Fullscreen {
+  padding-bottom: 15rem;
+}
+.section2 {
+  background-color: whitesmoke;
+}
+.section2-img {
+  border-radius: 50px;
+}
+
+.section3 {
+  background-color: turquoise;
+}
+.section4 {
+  background-image: linear-gradient(to left, #434343, #000000);
+}
+
+.card-animation {
+  animation-duration: 3s;
+}
+
+.auto-alignment {
+  width: 100%;
+  height: auto;
+}
+.date {
+  background-color: turquoise;
+}
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.textarea {
+  border-radius: 10px;
+}
+.button {
+  margin-left: 25%;
+  width: 30%;
+  box-sizing: content-box;
+  border-radius: 35px;
+  color: black;
+  border-color: black;
+}
+.form-background {
+  background-color: turquoise;
+  border-color: black;
+}
+.footer-bg {
+  background-image: linear-gradient(to left, #434343, #000000);
+}
+.social_media_w3layouts {
+  margin: 0 0 0 0;
+}
+
+.social_media_w3layouts ul li {
+  margin: 0 0.5em;
+  font-size: 1.2em;
+}
+
+.agileinfo_share {
+  margin-right: 1em !important;
+  color: #fff;
+}
+
+ul.social-icons li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.social-icons li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  line-height: 34px;
+  background: transparent;
+  border: 2px solid #fff;
+  text-align: center;
+}
+
+ul.social-icons li a:hover {
+  color: #ffc107;
+}
+p.copy-right-w3ls {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+p.copy-right-w3ls a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+p.copy-right-w3ls a:hover {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: #fbb034;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #fbb034;
+  text-decoration: line-through;
+}
+
+.zoom {
+  transition: transform 1s; /* Animation */
+  width: 100%;
+  height: auto;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 5px;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
