@@ -34,6 +34,13 @@ html {
   }
 }
 
+.header{
+  background-color: rgba(0, 0, 0, 0.747);
+  position: fixed;
+  top: 0px;
+  z-index: 9;
+}
+
 .navbar-toggler .navbar-toggler-icon {
   background-color: gold;
 }
@@ -138,6 +145,7 @@ html {
   color: black;
   border-color: black;
 }
+
 .form-background {
   background-color: turquoise;
   border-color: black;

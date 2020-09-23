@@ -36,7 +36,11 @@ $(document).ready(function () {
     //console.log("/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;");
     //console.log("FullName : "+fullName);
     // console.log("Email : "+email);
-    if (!emailValidator.test(email)) {
+    if (fullName.length <4) {
+      alert("Enter minimum 4 character");
+      return false;
+    }
+    else if (!emailValidator.test(email)) {
       alert("Invalid Email ID...!!!!!");
       return false;
     } else if (phone.length !== 10) {
